@@ -1,0 +1,13 @@
+li {
+  list-style: none;
+}
+.CompanpyLogo {
+  height: 100px;
+}
+.jobItem {
+  background-color: #dbf0f1;
+  color: rgb(4, 4, 5);
+  padding: 25px;
+  margin: 25px;
+  border-radius: 25px;
+}
