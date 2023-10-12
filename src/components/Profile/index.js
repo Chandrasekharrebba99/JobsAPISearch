@@ -1,3 +1,4 @@
+import {Link} from 'react-router-dom'
 import axios from 'axios'
 import {Component} from 'react'
 import './index.css'
@@ -108,9 +109,9 @@ class Profile extends Component {
                     <p>EmpolymentType:{arr.jobEmploymentType}</p>
                     <p>Salary:{arr.job_max_salary}</p>
                     <p>Remote:{arr.jobIsRemote ? 'Yes' : 'NO'}</p>
-                    <button type="button">
-                      <a href={arr.jobApplyLink}>Apply Now</a>
-                    </button>
+                    <Link to="/apply">
+                      <button type="button">Apply Now</button>
+                    </Link>
                   </div>
                 </li>
               ))}

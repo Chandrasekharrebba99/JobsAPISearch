@@ -2,6 +2,7 @@ import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 
 import Home from './components/Home'
 import Profile from './components/Profile'
+import Apply from './components/Apply'
 import './App.css'
 
 // const faqsList = [
@@ -40,6 +41,7 @@ const App = () => (
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/jobs" element={<Profile />} />
+      <Route path="/Apply" element={<Apply />} />
     </Routes>
   </Router>
 )
